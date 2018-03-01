@@ -21,7 +21,7 @@
     
     button.imageMode = CHImageModeRight;
     
-     button.imageTitleRange = 10;
+    button.imageTitleRange = 10;
     
     [button handleControlEvent:UIControlEventTouchUpInside withBlock:^{
         NSLog(@"234");
