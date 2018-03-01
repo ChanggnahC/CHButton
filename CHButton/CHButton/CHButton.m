@@ -45,7 +45,6 @@ static char overviewKey;
         case CHImageModeLeft:{
             CGPoint center = self.imageView.center;
             CGRect newFrame = [self titleLabel].frame;
-            CGPoint tcenter = self.titleLabel.center;
             CGRect imaFrame = [self imageView].frame;
             center.x = imaFrame.size.width/2 + (self.frame.size.width - (imaFrame.size.width+newFrame.size.width+_imageTitleRange))/2;
             
@@ -61,8 +60,7 @@ static char overviewKey;
         case CHImageModeRight:{
             CGPoint center = self.titleLabel.center;
             CGRect newFrame = [self imageView].frame;
-            CGPoint imacenter = self.imageView.center;
-            CGRect tFrame = [self titleLabel].frame;
+         
             
             center.x = self.titleLabel.frame.size.width/2 + (self.frame.size.width - (self.titleLabel.frame.size.width+newFrame.size.width+5+_imageTitleRange))/2;
             self.titleLabel.center = center;
