@@ -16,11 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     CHButton *button = [[CHButton alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
     button.backgroundColor = [UIColor redColor];
     
     button.imageMode = CHImageModeRight;
+    
+     button.imageTitleRange = 10;
     
     [button handleControlEvent:UIControlEventTouchUpInside withBlock:^{
         NSLog(@"234");
@@ -30,7 +31,7 @@
     [button setImage:[UIImage imageNamed:@"打电话"] forState:UIControlStateNormal];
     
     
-    //    button.picTileRange = 20;
+   
     [self.view addSubview:button];
 }
 

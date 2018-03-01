@@ -84,7 +84,7 @@
 		04783C002047D78A00486713 = {
 			isa = PBXGroup;
 			children = (
-				04783C0B2047D78A00486713 /* CHButtonDemo */,
+				04783C0B2047D78A00486713 /* CHButton */,
 				04783C242047D78A00486713 /* CHButtonTests */,
 				04783C2F2047D78A00486713 /* CHButtonUITests */,
 				04783C0A2047D78A00486713 /* Products */,
@@ -101,7 +101,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04783C0B2047D78A00486713 /* CHButtonDemo */ = {
+		04783C0B2047D78A00486713 /* CHButton */ = {
 			isa = PBXGroup;
 			children = (
 				04783C412047D7D900486713 /* CHButton */,
@@ -115,7 +115,7 @@
 				04783C1A2047D78A00486713 /* Info.plist */,
 				04783C1B2047D78A00486713 /* main.m */,
 			);
-			path = CHButtonDemo;
+			path = CHButton;
 			sourceTree = "<group>";
 		};
 		04783C242047D78A00486713 /* CHButtonTests */ = {
