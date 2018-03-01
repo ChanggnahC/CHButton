@@ -15,6 +15,7 @@
 		04783C1C2047D78A00486713 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04783C1B2047D78A00486713 /* main.m */; };
 		04783C262047D78A00486713 /* CHButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04783C252047D78A00486713 /* CHButtonTests.m */; };
 		04783C312047D78A00486713 /* CHButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04783C302047D78A00486713 /* CHButtonUITests.m */; };
+		04783C402047D79E00486713 /* CHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04783C3F2047D79D00486713 /* CHButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		04783C2C2047D78A00486713 /* CHButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04783C302047D78A00486713 /* CHButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHButtonUITests.m; sourceTree = "<group>"; };
 		04783C322047D78A00486713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04783C3E2047D79D00486713 /* CHButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHButton.h; sourceTree = "<group>"; };
+		04783C3F2047D79D00486713 /* CHButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +84,7 @@
 		04783C002047D78A00486713 = {
 			isa = PBXGroup;
 			children = (
-				04783C0B2047D78A00486713 /* CHButton */,
+				04783C0B2047D78A00486713 /* CHButtonDemo */,
 				04783C242047D78A00486713 /* CHButtonTests */,
 				04783C2F2047D78A00486713 /* CHButtonUITests */,
 				04783C0A2047D78A00486713 /* Products */,
@@ -98,9 +101,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04783C0B2047D78A00486713 /* CHButton */ = {
+		04783C0B2047D78A00486713 /* CHButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04783C412047D7D900486713 /* CHButton */,
 				04783C0C2047D78A00486713 /* AppDelegate.h */,
 				04783C0D2047D78A00486713 /* AppDelegate.m */,
 				04783C0F2047D78A00486713 /* ViewController.h */,
@@ -111,7 +115,7 @@
 				04783C1A2047D78A00486713 /* Info.plist */,
 				04783C1B2047D78A00486713 /* main.m */,
 			);
-			path = CHButton;
+			path = CHButtonDemo;
 			sourceTree = "<group>";
 		};
 		04783C242047D78A00486713 /* CHButtonTests */ = {
@@ -130,6 +134,15 @@
 				04783C322047D78A00486713 /* Info.plist */,
 			);
 			path = CHButtonUITests;
+			sourceTree = "<group>";
+		};
+		04783C412047D7D900486713 /* CHButton */ = {
+			isa = PBXGroup;
+			children = (
+				04783C3E2047D79D00486713 /* CHButton.h */,
+				04783C3F2047D79D00486713 /* CHButton.m */,
+			);
+			path = CHButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04783C402047D79E00486713 /* CHButton.m in Sources */,
 				04783C112047D78A00486713 /* ViewController.m in Sources */,
 				04783C1C2047D78A00486713 /* main.m in Sources */,
 				04783C0E2047D78A00486713 /* AppDelegate.m in Sources */,
