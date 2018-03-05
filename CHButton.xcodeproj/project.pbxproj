@@ -84,7 +84,7 @@
 		04783C002047D78A00486713 = {
 			isa = PBXGroup;
 			children = (
-				04783C0B2047D78A00486713 /* CHButton */,
+				04783C0B2047D78A00486713 /* CHButtonDemo */,
 				04783C242047D78A00486713 /* CHButtonTests */,
 				04783C2F2047D78A00486713 /* CHButtonUITests */,
 				04783C0A2047D78A00486713 /* Products */,
@@ -101,7 +101,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04783C0B2047D78A00486713 /* CHButton */ = {
+		04783C0B2047D78A00486713 /* CHButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
 				04783C412047D7D900486713 /* CHButton */,
@@ -115,7 +115,7 @@
 				04783C1A2047D78A00486713 /* Info.plist */,
 				04783C1B2047D78A00486713 /* main.m */,
 			);
-			path = CHButton;
+			path = CHButtonDemo;
 			sourceTree = "<group>";
 		};
 		04783C242047D78A00486713 /* CHButtonTests */ = {
@@ -445,7 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CHButton/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CHButtonDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apress.CHButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -458,7 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CHButton/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CHButtonDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apress.CHButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
